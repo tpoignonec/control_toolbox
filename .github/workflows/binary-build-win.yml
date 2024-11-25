@@ -25,5 +25,5 @@ jobs:
     uses: ros-controls/ros2_control_ci/.github/workflows/reusable-ros-tooling-win-build.yml@windows_ci
     with:
       ros_distro: jazzy
-      ref: ros2-master
+      ref_for_scheduled_build: ros2-master
       os_name: windows-2019
